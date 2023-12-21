@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+}
+.icon-bar{
+    background-color: #555;
+    height: 60vh;
+    width:90px;
+    display: flex;
+    flex-direction: column;
+}
+
+ .icon-bar a{
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    height: 8vh;
+    font-size: 36px;
+}
+.active{
+    background-color:  #04AA6D;
+}
+a:hover{
+    background-color: black;
+}
